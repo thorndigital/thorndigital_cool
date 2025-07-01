@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Thorn Digital | Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="_global.css">
+</head>
+<body class="min-h-screen">
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <div class="particles" id="particles"></div>
+
+    <header class="sticky top-0 z-50 px-6 py-4 flex justify-between items-center glass-effect">
+        <a href="index.html" class="logo-text">THORN DIGITAL</a>
+        <nav class="space-x-8 text-md font-medium hidden md:flex">
+            <a href="index.html" class="nav-link hover:text-green-300">Home</a>
+            <a href="about.html" class="nav-link hover:text-green-300">About Us</a>
+            <a href="portfolio.html" class="nav-link hover:text-green-300">Portfolio</a>
+            <a href="services.html" class="nav-link hover:text-green-300">Services</a>
+            <a href="pricing.html" class="nav-link hover:text-green-300">Pricing</a>
+            <a href="faq.html" class="nav-link hover:text-green-300">FAQ</a>
+            <a href="contact.html" class="nav-link glow-text font-bold">Contact</a>
+        </nav>
+        <button class="md:hidden text-white text-2xl focus:outline-none">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <div class="pt-24 md:pt-32"></div> <section id="contact" class="py-16 md:py-32 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-5xl font-bold glow-text mb-16 fade-in">Let's Build Something Revolutionary.</h2>
+        <p class="text-white/80 text-xl leading-relaxed mb-12 max-w-2xl mx-auto fade-in">
+            Ready to transform your online presence? Fill out the form below or reach out directly. We're excited to hear about your project!
+        </p>
+        <div class="glass-effect p-8 md:p-12 rounded-3xl border border-white/20 shadow-2xl fade-in">
+            <form id="contactForm" class="space-y-6 text-left">
+                <div>
+                    <label for="name" class="block text-white/80 text-lg font-medium mb-2">Your Name</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-white/80 text-lg font-medium mb-2">Your Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required>
+                </div>
+                <div>
+                    <label for="phone" class="block text-white/80 text-lg font-medium mb-2">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="(123) 456-7890">
+                </div>
+                <div>
+                    <label for="company" class="block text-white/80 text-lg font-medium mb-2">Company Name (Optional)</label>
+                    <input type="text" id="company" name="company" class="form-input" placeholder="Acme Corp">
+                </div>
+                <div>
+                    <label for="service" class="block text-white/80 text-lg font-medium mb-2">Interested Service(s)</label>
+                    <select id="service" name="service" class="form-input" required>
+                        <option value="">Select a service...</option>
+                        <option value="custom-design">Custom Website Design</option>
+                        <option value="e-commerce">E-commerce Solution</option>
+                        <option value="seo">SEO Optimization</option>
+                        <option value="maintenance">Website Maintenance</option>
+                        <option value="consultation">Consultation</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="budget" class="block text-white/80 text-lg font-medium mb-2">Estimated Budget (Optional)</label>
+                    <select id="budget" name="budget" class="form-input">
+                        <option value="">Select a budget range...</option>
+                        <option value="under-1k">Under $1,000</option>
+                        <option value="1k-3k">$1,000 - $3,000</option>
+                        <option value="3k-5k">$3,000 - $5,000</option>
+                        <option value="5k-10k">$5,000 - $10,000</option>
+                        <option value="10k+">$10,000+</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message" class="block text-white/80 text-lg font-medium mb-2">Your Message</label>
+                    <textarea id="message" name="message" rows="5" class="form-textarea" placeholder="Tell us about your project and goals..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="glow-btn px-10 py-5 rounded-full font-bold text-lg inline-block mt-4">
+                        Send Your Inquiry
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="mt-12 text-center fade-in">
+            <h3 class="text-3xl font-bold glow-text mb-4">Direct Contact</h3>
+            <p class="text-white/80 text-lg mb-2">
+                Email us directly for immediate assistance: <br class="md:hidden"/>
+                <a href="mailto:thorndigital@gmail.com" class="text-green-300 hover:text-green-200 underline transition-colors">
+                    thorndigital@gmail.com
+                </a>
+            </p>
+            <p class="text-white/80 text-lg">
+                Or connect on social media:
+                <div class="flex justify-center space-x-6 mt-4">
+                    <a href="#" class="text-3xl text-green-300 hover:text-green-100 transition-colors"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-3xl text-green-300 hover:text-green-100 transition-colors"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-3xl text-green-300 hover:text-green-100 transition-colors"><i class="fab fa-instagram"></i></a>
+                </div>
+            </p>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <footer class="relative py-24 text-center overflow-hidden">
+        <div class="glass-effect p-8 md:p-16 max-w-4xl mx-auto rounded-3xl border border-white/20 shadow-2xl">
+            <h3 class="text-5xl md:text-6xl font-bold glow-text mb-8 leading-tight">Ready to Dominate Your Market?</h3>
+            <p class="text-xl text-white/80 mb-12 max-w-2xl mx-auto leading-relaxed">
+                Join the ranks of businesses that don't just exist online – they command attention and drive results.
+            </p>
+            <div class="space-y-6 sm:space-y-0 sm:space-x-6 sm:flex sm:justify-center mb-12">
+                <a href="contact.html" class="glow-btn px-12 py-6 rounded-full font-bold text-lg inline-block transition-all duration-300">
+                    Start Your Transformation
+                </a>
+                <a href="mailto:thorndigital@gmail.com" class="border-2 border-green-400 hover:bg-green-400 hover:text-black px-12 py-6 rounded-full font-bold text-lg inline-block transition-all duration-300">
+                    Email Us Direct
+                </a>
+            </div>
+            <div class="text-center space-y-4">
+                <p class="text-white/60 text-lg">
+                    Connect with us:
+                    <a href="#" class="text-green-300 hover:text-green-200 underline mx-2 transition-colors"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="#" class="text-green-300 hover:text-green-200 underline mx-2 transition-colors"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="text-green-300 hover:text-green-200 underline mx-2 transition-colors"><i class="fab fa-instagram"></i> Instagram</a>
+                </p>
+                <p class="text-white/60">
+                    <a href="mailto:thorndigital@gmail.com" class="text-green-300 hover:text-green-200 underline transition-colors">
+                        thorndigital@gmail.com
+                    </a>
+                </p>
+                <p class="text-xs text-white/40">© 2025 Thorn Digital. All rights reserved. | Crafting digital dominance since 2025.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="contact.html" class="sticky-cta glow-btn px-6 py-3 rounded-full font-semibold text-lg flex items-center space-x-2">
+        <i class="fas fa-rocket"></i> <span>Get a Free Quote</span>
+    </a>
+
+    <button id="backToTopBtn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="_global.js"></script>
+    <script>
+        // Specific script for Contact Form Validation
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent default form submission
+
+                    let isValid = true;
+                    const name = contactForm.querySelector('#name');
+                    const email = contactForm.querySelector('#email');
+                    const service = contactForm.querySelector('#service');
+                    const message = contactForm.querySelector('#message');
+
+                    // Simple validation checks
+                    if (name.value.trim() === '') {
+                        alert('Please enter your name.');
+                        isValid = false;
+                    } else if (email.value.trim() === '' || !email.value.includes('@')) {
+                        alert('Please enter a valid email address.');
+                        isValid = false;
+                    } else if (service.value === '') {
+                        alert('Please select a service.');
+                        isValid = false;
+                    } else if (message.value.trim().length < 10) {
+                        alert('Please write a more detailed message (at least 10 characters).');
+                        isValid = false;
+                    }
+
+                    if (isValid) {
+                        alert('Thank you for your message! We will get back to you shortly.');
+                        contactForm.reset(); // Clear the form
+                        // In a real application, you would send this data to a server
+                        console.log('Form Submitted:', {
+                            name: name.value,
+                            email: email.value,
+                            phone: contactForm.querySelector('#phone').value,
+                            company: contactForm.querySelector('#company').value,
+                            service: service.value,
+                            budget: contactForm.querySelector('#budget').value,
+                            message: message.value
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
